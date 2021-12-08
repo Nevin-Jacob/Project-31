@@ -15,7 +15,7 @@ class Bridge {
     this.pointA = pointA;
     this.body = Composites.chain(rects, 0.1, 0, -0.6, 0, {
       stiffness: 0.8,
-      length: 3,
+      length: 2,
       render: { type: "line" }
     });
 
